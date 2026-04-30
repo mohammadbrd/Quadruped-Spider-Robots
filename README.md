@@ -108,10 +108,11 @@ This repository contains both implementation files and academic documentation:
 
 ---
 
-## 👥 Authors
+## 👤 Author
 
 **Mohammad Barabadi**  
-GitHub: [@mohammadbrd](https://github.com/mohammadbrd)
+GitHub: [@mohammadbrd](https://github.com/mohammadbrd)  
+Linkedin: [@mohammadbrd](https://www.linkedin.com/in/mohammadbrd/)
 
 **Sajad Ghadiri**  
 GitHub: [@Sajad-Ghadiri](https://github.com/Sajad-Ghadiri)
