@@ -69,54 +69,6 @@ The main goal of this project was to build a complete quadruped robot from mecha
 
 ---
 
-## 📁 Repository Structure
-
-```text
-Quadruped-Spider-Robots/
-│
-├── Keil & CubeMX/                 # STM32CubeMX and Keil embedded firmware files
-│   ├── Core/                      # Main STM32 source and header files
-│   ├── MDK-ARM/                   # Keil project files
-│   └── 4_Legged_Robot.ioc         # STM32CubeMX configuration file
-│
-├── Solid/                         # SolidWorks mechanical design versions
-│   ├── V1(1.05.1401)/
-│   ├── V2(23.05.1401)/
-│   ├── V3(27.01.1402)/
-│   └── V4(18.02.1402)/
-│
-├── Thesis/                        # Thesis source files and documentation
-│   ├── Code/
-│   ├── Images/
-│   └── *.tex
-│
-├── Mohammad Barabadi_Thesis.pdf   # Final thesis report
-├── Our_Robot.jpg                  # Final robot image
-└── README.md
-```
-
----
-
-## ⚙️ System Workflow
-
-```text
-Mechanical Design
-        ↓
-3D Printing & Assembly
-        ↓
-STM32-Based Servo Control
-        ↓
-Robot Locomotion Programming
-        ↓
-Camera Input with ESP32-CAM
-        ↓
-Image Processing
-        ↓
-Obstacle Detection & Navigation
-```
-
----
-
 ## 🦿 Locomotion Concept
 
 The robot uses multiple SG90 servo motors to generate walking motion. Each leg movement is controlled through embedded firmware running on the STM32F103C8T6 microcontroller. By coordinating the servo angles, the robot can perform step-based movement similar to a spider-like quadruped mechanism.
@@ -140,50 +92,6 @@ The project includes several stages of mechanical and system development:
 - Final physical robot prototype
 
 You can find the mechanical design files in the `Solid/` folder and the thesis documentation in the `Thesis/` folder.
-
----
-
-## 🚀 Getting Started
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/mohammadbrd/Quadruped-Spider-Robots.git
-cd Quadruped-Spider-Robots
-```
-
-### 2. Open the STM32 Project
-
-Open the project files from:
-
-```text
-Keil & CubeMX/
-```
-
-You can use:
-
-- **STM32CubeMX** to inspect or modify the microcontroller configuration
-- **Keil MDK-ARM** to build and upload the embedded firmware
-
-### 3. Open the Mechanical Design
-
-The SolidWorks models are available in:
-
-```text
-Solid/
-```
-
-Different design versions are included, showing the mechanical development process of the robot.
-
-### 4. Read the Thesis Documentation
-
-The full project report is available as:
-
-```text
-Mohammad Barabadi_Thesis.pdf
-```
-
-The LaTeX source files are also included in the `Thesis/` directory.
 
 ---
 
